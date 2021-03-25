@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+#sec1,
+#sec2,
+#sec3 {
+  min-height: 100vh;
+  display: grid;
+  place-items: center center;
+}
+
+#sec1 {
+  background: pink;
+}
+
+#sec2 {
+  background: yellow;
+}
+
+#sec3 {
+  background: lightcoral;
+}
+
+
+
+nav {
+  position: fixed;
+  width: 100%;
+  background: lightgreen;
+  padding: 1rem 3rem;
+  opacity: 0.5;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+}
